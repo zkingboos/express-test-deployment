@@ -5,4 +5,4 @@ app.get("/", (req, res) => {
     res.send("Hello World!")
 })
 
-app.listen(9091, () => console.log("server up"))
+app.listen(2000, () => console.log("server up"))

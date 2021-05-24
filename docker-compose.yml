@@ -1,0 +1,7 @@
+version: '3.8'
+
+services: 
+    expresstestdeployment:
+        image: zkingboos/expresstestdeployment
+        ports: 
+            - "2000:2000"
